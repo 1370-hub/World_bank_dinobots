@@ -1,0 +1,5 @@
+bots='WDIW Dataset copy2.xlsx'
+team_7=pd.read_excel(bots)
+team_7
+dino=team_7.loc[team_7['Cool Name']=='Dinobots']
+dino
